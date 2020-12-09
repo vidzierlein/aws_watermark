@@ -1,4 +1,5 @@
-""" import cv2
+""" 
+import cv2
 
 background = cv2.imread('Egmore Museum Theatre-16.png', cv2.IMREAD_UNCHANGED)
 foreground = cv2.imread('Radiant-Watermark-Transparent-copy.png', cv2.IMREAD_UNCHANGED) """
@@ -29,3 +30,5 @@ def foregroundOverlay(background, foreground, alpha=1.0,x=0, y=0, scale=1.0):
         print(e)
     output= output[:,:,:3]
     return output
+
+    cv2.imshow('overlay', output)
