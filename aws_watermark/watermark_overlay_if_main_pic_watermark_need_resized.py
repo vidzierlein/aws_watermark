@@ -49,4 +49,4 @@ def addImageWatermark(LogoImage,MainImage,opacity,pos=(10,100),):
 
 
 if __name__ == '__main__':
-    addImageWatermark('./Radiant-Watermark-Transparent-copy.png','./Egmore Museum Theatre.jpg',100,(2490,2000))
+    addImageWatermark('./LogoImage.png','./MainImage.jpg',100,(2490,2000))
